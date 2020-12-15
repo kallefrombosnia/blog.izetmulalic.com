@@ -134,8 +134,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Hotfixes`,
-        short_name: `Hotfixes`,
+        name: `Blog`,
+        short_name: `Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#eea630`,
