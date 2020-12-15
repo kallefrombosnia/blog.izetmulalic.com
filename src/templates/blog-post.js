@@ -16,7 +16,7 @@ import {
   loadFontsForCode,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'kallegowild';
+const GITHUB_USERNAME = 'kallefrombosnia';
 const GITHUB_REPO_NAME = 'blog.izetmulalic.com';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
