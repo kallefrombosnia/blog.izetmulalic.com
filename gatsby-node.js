@@ -136,6 +136,7 @@ exports.createPages = ({ graphql, actions }) => {
 
             // Record which links to internal posts have translated versions
             // into this language. We'll replace them before rendering HTML.
+            /*
             let translatedLinks = [];
             const { langKey, maybeAbsoluteLinks } = post.node.fields;
             maybeAbsoluteLinks.forEach(link => {
@@ -157,6 +158,8 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             });
+          */
+
 
             createPage({
               path: post.node.fields.slug,
@@ -164,7 +167,7 @@ exports.createPages = ({ graphql, actions }) => {
               context: {
                 slug: post.node.fields.slug,
                 translations,
-                translatedLinks,
+                //translatedLinks,
               },
             });
           });
