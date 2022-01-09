@@ -1,6 +1,6 @@
 ---
 title: Laravel 8 RateLimit functionality
-date: '2022-01-09'
+date: '2022-01-08'
 spoiler: Working with rate limiters in Laravel 8
 ---
 
