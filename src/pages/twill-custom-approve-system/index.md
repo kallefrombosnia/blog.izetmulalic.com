@@ -29,7 +29,7 @@ class CategoryController extends BaseModuleController
         unset($options['live']);
 
         // Add data to the live key which will contain our own display logic per role
-        $data['live'] = in_array(\Auth::guard('twill_users')->user()->role, ['SUPERADMIN', 'ADMIN']) ?
+        $options['live'] = in_array(\Auth::guard('twill_users')->user()->role, ['SUPERADMIN', 'ADMIN']) ?
                         [   
                             ...$data['live'],
                             [
@@ -44,7 +44,7 @@ class CategoryController extends BaseModuleController
                             ]
                         ];
 
-        return $data;
+        return $options;
                        
     }
 }
