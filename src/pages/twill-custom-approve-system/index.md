@@ -25,7 +25,7 @@ class CategoryController extends BaseModuleController
 
         $options = $data = parent::getSubmitOptions($item);
 
-        // Unset update key
+        // Unset live key
         unset($options['live']);
 
         // Add data to the live key which will contain our own display logic per role
